@@ -1,0 +1,770 @@
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+body {
+    background-image: url(/images/greyandred.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+* {
+    box-sizing: border-box;
+    color: #00070f;
+    /* text-shadow: 2px 2px 5px rgb(36, 36, 36); */
+    text-decoration: none;
+
+}
+
+@media only screen and (min-width: 1501px){
+
+    div.content {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    div.separate {
+        width: 14%;
+    }
+
+    div.empty{
+        height: 350px;
+    } 
+}
+
+@media only screen and (min-width: 1251px) and (max-width: 1500px){
+
+    
+    div.content {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    div.separate {
+        width: 14%;
+    }
+
+    div.empty{
+        height: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1250px){
+
+
+    div.content {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    div.separate {
+        width: 14%;
+    }
+
+    div.empty{
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+  
+    div.footer p {
+        font-size: 10px;
+    }
+
+    div.footer h4 {
+        font-size: 10px;
+    }
+
+   div.empty{
+    height: 150px;
+    }
+
+    div.content {
+        width: 100%;
+        margin: 0;
+    }
+
+    div.separate {
+        width: 13%;
+    }
+
+    /* ---------------------- */
+
+    div.content h3 {
+        font-size: 15px;
+    }
+
+    div.content h2 {
+        font-size: 20px;
+    }
+
+    div.content h1 {
+        font-size: 15px;
+    }
+
+    div.content p {
+        font-size: 10px;
+    }
+
+    div.content h4 {
+        font-size: 10px;
+    }
+
+    div.content-2 {
+        width: 100%;
+        margin: 15% auto 0 auto;
+        margin-bottom: 20%;
+    }
+
+    div.with-pt {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .with-pt  h2 {
+        font-size: 20px;
+    }
+
+    .with-pt h3 {
+        font-size: 15px;
+    }
+
+    .content-2 p  {
+        font-size: 10px;
+    }
+    
+}
+
+.when-hover:hover {
+    color: rgb(186, 189, 189);
+    cursor: pointer;
+}
+
+
+div.footer {
+    background-color: rgba(211, 211, 211, 0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer div{
+    display: inline-block;
+}
+
+.col-12 {
+    text-align: center;
+}
+
+hr {
+    width: 85%;
+}
+
+div.footer h4 {
+    display: inline;
+}
+
+/* ---------------------- */
+
+div.content > div {
+    display: inline-block;
+}
+
+div.content {
+    margin-bottom: 10%;
+}
+
+
+div [class*="membership-"]{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+div [class*="membership-"] > h2,  
+div [class*="membership-"] > h3{
+    color: rgb(163, 4, 4);
+    text-shadow: 2px 2px 5px rgb(162, 161, 161);
+    text-align: center;
+    margin-bottom: 8%;
+    
+}
+
+
+div.membership-1 {
+    width: 20%;
+    float: left;
+    margin-top: 10%;
+    border-color: rgb(205, 127, 50);
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 4px 8px 0 rgba(205, 127, 50, 1), 0 6px 20px 0 rgba(205, 127, 50, 0.19);
+}
+
+div.membership-2 {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-color: rgb(255, 215, 0);
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 4px 8px 0 rgba(255, 215, 0, 1), 0 6px 20px 0 rgba(255, 215, 0, 0.19);
+}
+
+div.membership-3 {
+    width: 20%;
+    float: right;
+    margin-top: 10%;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 4px 8px 0 rgba(192, 192, 192, 1), 0 6px 20px 0 rgba(192, 192, 192, 0.19);
+}
+
+.price {
+    color: black;
+    text-align: center;
+    text-shadow: none;
+}
+
+p.price{
+    margin-bottom: 15%;
+    padding: 3%;
+}
+
+/* ---------------------- */
+
+div.content h4 {
+    color: rgb(163, 4, 4);
+    text-shadow: 2px 2px 5px rgb(162, 161, 161);
+    text-align: center;
+    padding: 0 5%;
+}
+
+div.membership-1:hover {
+    box-shadow: 0 4px 8px 0 rgba(205, 127, 50, 1), 0 6px 20px 0 rgba(205, 127, 50, 1);
+    cursor: pointer;
+}
+div.membership-2:hover {
+    box-shadow: 0 4px 8px 0 rgba(218, 165, 32, 1), 0 6px 20px 0 rgba(218, 165, 32, 1);
+    cursor: pointer;
+}
+div.membership-3:hover {
+    box-shadow: 0 4px 8px 0 rgba(192, 192, 192, 1), 0 6px 20px 0 rgba(192, 192, 192, 1);
+    cursor: pointer;
+}
+
+
+div.content-2{
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0.184); */
+}
+
+div.content-2 h2{
+    color: whitesmoke;
+    text-shadow: #000000;
+}
+
+div.content-2 a{
+    color: rgb(163, 4, 4);
+    text-shadow: 2px 2px 5px rgb(59, 1, 1);
+}
+
+div.content-2 a:hover{
+    color: #f38686;
+    font-style: italic;
+}
+
+
+
+/* ------------------------------ */
+
+
+
+.hide{
+    display: none;
+}
+
+.headerTiger{
+    background-color: rgba(211, 211, 211, 0.7);
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    font-size: 20px;
+    z-index: 9;
+}
+
+#buttonArea{
+    display: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   
+    border-radius: 10%;
+    margin: 5%;
+}
+
+.toggle{
+    display: none;
+}
+
+.wrapper1{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: minmax(40px,auto);
+    gap: 10px;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.wrapperTop{
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    grid-template-rows: 150px;
+    align-items: center;
+    gap: 10px;
+}
+
+.items{
+    border-radius: 10px;
+    width: 100%;
+    height:100% ;
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    background-color:whitesmoke;
+    color:black;
+    font-size: 25px;
+   
+}
+
+.hover:hover{
+    color: whitesmoke;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.hover1:hover{
+    background-color: #f38686;
+    cursor: pointer;
+
+}
+
+#logo {
+    height: 150px;
+}
+
+.sign-up{
+    width: 70%;
+    border: 1px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(163, 4, 4); 
+    color:whitesmoke;
+    height: 100%;
+}
+
+.log-in{
+    width: 70%;
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(163, 4, 4); 
+    color:whitesmoke;
+    font-size: 25px;
+    height: 100%;
+}
+
+.links{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-decoration: none;
+    text-shadow: none;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0;
+
+}
+
+.linksS{
+    align-self: center;
+    height: 75%;
+    margin-top: 3%;
+    width: 100%;
+    color: inherit;
+    text-shadow: none;
+
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+ 
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+height: 100%;
+margin: 0;
+color: whitesmoke;
+background-image: url("/images/greyandred.jpg");
+background-size: cover;
+background-attachment: fixed;
+}
+
+@media only screen and (max-width: 1288px){
+    .wrapper1{
+        align-items: center;
+        grid-template-columns: repeat(5,1fr);
+    }
+    .wrapperTop{
+        align-items: center;
+    }
+
+
+}
+
+@media only screen and (max-width:898px){
+
+ .wrapper1{
+        grid-column:1/3 ;
+    }
+.hide{
+        display: none;
+    }
+
+    .toggle{
+        display: block;
+    }
+    .wrapperTop{
+        grid-template-columns: 1fr;
+    }
+
+    .cellZ1{
+        grid-column: 1/1;
+        grid-row: 1/1;
+        justify-self: start;
+    }
+    #buttonArea{
+        display: block;
+        grid-row: 1/2;
+        grid-column: 1/2;
+        align-self: end;
+        justify-self: center;
+    }
+
+
+
+}
+
+@media only screen and (max-width:735px) {
+    .wrapper1{
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(40px,auto);
+   
+    }
+    .items{
+        width: 70%;
+        height: 40px;
+        justify-self: center; 
+    }
+    .linksS{
+        margin-top: 1%;
+    }
+}
+
+
+
+form div.logout button{
+    width: 155%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(163, 4, 4); 
+    color:whitesmoke;
+    text-shadow: none;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+
+
+/* ------------------- */
+
+
+.container2 {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 800px;
+    margin: 1px auto;
+    width: 100%;
+}
+
+input[type=text],
+input[type=password],
+input[type=tel],
+input[type=email],
+input[type=month],
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black; 
+    font-size: 15px;
+
+}
+
+
+
+input[type=radio] {
+    margin: 8px 0;
+    display: inline-block;
+}
+
+button[type=submit] {
+/*    background-color: #4CAF50;*/
+    background-color: rgb(163, 4, 4);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type=submit]:hover {
+/*    background-color: #45a049;*/
+background-color: #f38686;
+cursor: pointer;
+}
+
+/* html {
+    background-color: darkgray;
+} */
+
+
+div.other-color,
+div.other-color a {
+    color: black;
+}
+
+.container2 label {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-shadow: none;
+
+}
+
+.error {
+    color: rgb(231, 2, 2);
+    font-weight: 600;
+     display: inline; 
+    padding: 6px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+input::placeholder {
+    text-shadow: none;
+}
+
+
+
+textarea {
+    color: black;
+    text-shadow: none;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    font-size: 15px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+div.left, 
+div.right{
+    width: 45%;
+}
+
+div.left{
+    float: left;
+}
+
+div.right{
+    float: right;
+}
+
+form div.logout button{
+    width: 155%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: rgb(163, 4, 4); 
+    color:whitesmoke;
+    text-shadow: none;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+}
+
+h1.motto {
+    color: rgb(163, 4, 4);
+    text-shadow: 2px 2px 5px rgb(59, 1, 1);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aya{
+    display: none;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px rgb(59, 1, 1);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.aya a{
+/*    font-style: italic;*/
+    color: rgb(163, 4, 4);
+
+}
+
+.aya a:hover{
+    font-style: italic;
+    color:#f38686;
+
+}
+h1.motto {
+    color: rgb(163, 4, 4);
+    text-shadow: 2px 2px 5px rgb(59, 1, 1);
+    text-align: center;
+    margin-top:150px;
+    margin-bottom: 50px;
+    font-size: 55px;
+}
+
+span.motto2 {
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-align: center;
+    margin-top:150px;
+    margin-bottom: 50px;
+    font-size: 55px;
+
+}
+
+
+h1.motto a{
+    color: rgb(163, 4, 4);
+    text-shadow: 2px 2px 5px rgb(59, 1, 1);
+    text-align: center;
+    margin-top:150px;
+    margin-bottom: 50px;
+    font-size: 55px;
+}
+
+h1.motto a:hover{
+    color: rgb(163, 4, 4);
+    text-shadow: 2px 2px 5px rgb(59, 1, 1);
+    text-align: center;
+    margin-top:150px;
+    margin-bottom: 50px;
+    font-size: 55px;
+    font-style: italic;
+    color:#f38686;
+}
