@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  db-gym:
+    container_name: gym-db
+    restart: always
+    # image: mysql
+    environment:
+        MYSQL_ROOT_PASSWORD: rootGymDB
+        MYSQL_DATABASE: gym
+        MYSQL_USER: gym
+        MYSQL_PASSWORD: GymDB
+    ports:
+        - "3306:3306"
+    build: 
+      context: ./db
+      dockerfile: Dockerfile
+
+  web-server-gym:
+    container_name: gym-web
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+    - db-gym
+    ports:
+    - 80:80
+  
