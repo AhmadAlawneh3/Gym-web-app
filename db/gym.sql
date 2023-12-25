@@ -142,8 +142,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `is_admin`) VALUES
-(1, 'ahmad', '9c140fcec5136bd1eb5fad96e4201ab9', 1);
-
+(1, 'ahmad', '0c870b38522626f0b125797cd87d4bd6', 1);
+-- password = ahmad1234 
 --
 -- Constraints for dumped tables
 --
